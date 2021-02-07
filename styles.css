@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+h2{
+    color: red;
+    font-family: Lobster;
+}
+
+/* all paragraphs have the fontsize 20px and so on*/
+p{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/* all assigned tags have the color blue*/
+.blue-text{
+    color: blue;
+}
