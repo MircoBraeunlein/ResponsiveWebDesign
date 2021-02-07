@@ -19,3 +19,9 @@ p {
 img{
     width: 250px;
 }
+
+.image-border{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
