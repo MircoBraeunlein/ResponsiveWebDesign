@@ -23,4 +23,7 @@ CSS_Basic_Pinguin:
 	Working with styles on the example of an pinguin
 
 VisualDesign:
+	text-align in styles.css	
+	strong tag --> bold
+	u tag --> underline
 	
