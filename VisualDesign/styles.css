@@ -46,6 +46,12 @@ p {
   padding: 10px;
 }
 
+#navbar{
+  position: fixed;
+  top: 0px;
+  left: 300px;
+}
+
 nav ul {
   margin: 0px;
   padding: 5px 0px 5px 30px;
