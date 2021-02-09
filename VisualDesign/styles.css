@@ -1,14 +1,37 @@
 h4 {
   text-align: center;
-  height: 25px;
+  padding: 10px;
+  background-color: rgba(45, 45, 45, 0.1);
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+h2{
+  top: 10px;
+  left: 5px;
+}
+
+a{
+  color:  black;
+}
+
+a:hover{
+  color: blue;
 }
 
 p {
   text-align: justify;
+  line-height: 25px;
+}
+
+#thumbnail{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .links {
   margin-right: 20px;
+  color: black;
+  opacity: 0.7;
 }
 
 .fullCard {
@@ -16,9 +39,18 @@ p {
   border-radius: 5px;
   margin: 10px 5px;
   padding: 4px;
-  width: 245px;
+  width: 300px;
 }
 
 .cardContent {
   padding: 10px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
 }
