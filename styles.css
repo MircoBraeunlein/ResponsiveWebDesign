@@ -1,27 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 
-h2 {
-    color: red;
-    font-family: Lobster;
-}
-
 /* all paragraphs have the fontsize 20px and so on*/
+
 p {
     font-size: 20px;
     font-family: monospace;
 }
 
-/* all assigned tags have the color blue*/
+
+/*style for all object with this class*/
+
 .blue-text {
     color: blue;
 }
 
-img{
+
+/*style for specific id*/
+
+#cat-form {
+    color: blue;
+}
+
+h2 {
+    color: red;
+    /*font-family = Schriftart*/
+    font-family: Lobster;
+}
+
+img {
     width: 250px;
 }
 
-.image-border{
+.image-border {
     border-color: black;
     border-width: 5px;
     border-style: solid;
+    border-radius: 10%;
+}
+
+.silver-background {
+    background-color: silver;
 }
