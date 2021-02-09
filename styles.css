@@ -22,7 +22,9 @@
         }
         
         .indoor-outdoor {
-            padding: 10px;
+            /*padding = Abstandshalter*/
+            /*padding-top etc possible, clockwise notation: padding: top right bottom left*/
+            padding: 10px ;
         }
         
         .cat-type {
