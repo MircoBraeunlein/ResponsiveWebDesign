@@ -1,4 +1,26 @@
+/*background color for whole page and text is green*/
 body{
     background-color: black;
+    color: green;
+}
+
+/*overrides the body text color to white if this class is assigned*/
+.text-white{
     color: white;
+}
+
+.text-purple{
+    color: purple !important;
+}
+
+.text-yellow{
+    color: yellow;
+}
+
+#text-orange1{
+    color: orange;
+}
+
+#text-orange2{
+    color: orange;
 }

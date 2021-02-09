@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html>
 
-
-
 <head>
     <link rel="stylesheet" href="styles2.css">
-    <title>HTML_Basic2</title>
+    <title>HTML_CSS_Basics</title>
 </head>
 
-<h1>Hello World</h1>
-
 <body>
+    <h1 class="text-white">Hello World</h1>
 
+    <!--The class listed closer to the bottom of the styles2.css will be displayed-->
+    <p class="text-white text-yellow">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+        accusam et justo duo dolores
+        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+        dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+        magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+        takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+
+    <!--The id overrides the styles given by classes, no matter where in the styles2.css the id-style is-->
+    <p id="text-orange" class="text-white text-yellow">
+        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+        dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+        praesent luptatum zzril delenit augue duis dolore te feugait
+        nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+        euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </p>
+
+    <!--The inline style overrides all other styles given-->
+    <p style="color: aqua;" id="text-orange1" class="text-white text-yellow">
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+        aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+        esse molestie consequat, vel illum dolore eu feugiat nulla
+        facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+        delenit augue duis dolore te feugait nulla facilisi.
+    </p>
+
+    <!--The !important declaration in styles2.css overrides any other declaration-->
+    <p style="color: aqua;" id="text-orange2" class="text-white text-yellow text-purple">
+        Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+        placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+        erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+        lobortis nisl ut aliquip ex ea commodo consequat.
+    </p>
 
 </body>
+
+<footer>
+    This is the footer.
+</footer>
+
+</html>
