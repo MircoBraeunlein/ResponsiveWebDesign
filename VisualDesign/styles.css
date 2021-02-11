@@ -24,8 +24,21 @@ p {
   line-height: 25px;
 }
 
-#thumbnail{
+#thumbnail-right{
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  /*float pushes the object to the specific boarder*/
+  float: right;
+}
+
+/*thumnail gets two times bigger*/
+#thumbnail-right:hover{
+  transform: scale(2);
+}
+
+#thumbnail-left{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  float: left;
 }
 
 .links {
@@ -50,6 +63,27 @@ p {
   position: fixed;
   top: 0px;
   left: 300px;
+}
+
+.rectangle-div {
+  width: 60%;
+  height: 200px;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.first {
+  background-color: red;
+  position: absolute;
+
+  /*red rectangle is in the foreground as long as it have the higher z-index*/
+  z-index: 2;
+}
+.second {
+  background-color: hsl(120, 100%, 50%);
+  position: absolute;
+  left: 30px;
+  z-index: 1;
 }
 
 nav ul {

@@ -30,6 +30,12 @@
 	text-transform
 	...:hover{} --> change color when cursor hovers over
 	offsets: top right bottom left --> positioning
+	float -> pushes to the specific edge of the browser
+	z-index -> fore- and background of overlaying objects
+	css3 hue -> hsl(120, 100%, 50%) -> (this is green)another color picker option
+	background-repeating-linear
+	setting background with image -> background: url()
+	transform: scale()
 
 	strong tag --> bold
 	u tag --> underline
