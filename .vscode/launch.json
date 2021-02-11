@@ -8,7 +8,9 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "E:/Working/CodeProjects/ResponsiveWebDesign/VisualDesign/main.html",
+            "url":
+            //"E:/Working/CodeProjects/ResponsiveWebDesign/VisualDesign/main.html",
+            "D:/Privat/Learning/HTML/HTML_Basic/VisualDesign/main.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
