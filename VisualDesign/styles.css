@@ -4,6 +4,7 @@ h4 {
   background-color: rgba(45, 45, 45, 0.1);
   font-size: 25px;
   text-transform: uppercase;
+  transform: skewX(24deg);
 }
 
 h2{

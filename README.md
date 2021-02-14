@@ -36,6 +36,7 @@
 	background-repeating-linear
 	setting background with image -> background: url()
 	transform: scale()
+	transform: skewX()
 
 	strong tag --> bold
 	u tag --> underline
@@ -44,5 +45,15 @@
 	hr tag (selfclosing) --> line
 	section tag
 	nav tag --> navigation
+
+## VisualDesign:
+	Heart div
+	@keyframes -> animations
+	animation-duration
+    animation-iteration-count: 
+	animation-timing-function:
+	animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75) -> same as linear
+
+## Applied Accessibility
 
 	
