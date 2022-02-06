@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px) {
+    body {
+        text-align: center;
+
+    }
+}
+
+body {
+    text-align: center;
+    display: flex;
+}
+
+
+header {
+    overflow: hidden;
+    position: fixed;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    overflow-x: auto;
+}
+
+#sect-vid{
+    margin-top: 75%;
+}
