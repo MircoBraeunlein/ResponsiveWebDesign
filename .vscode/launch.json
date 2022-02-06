@@ -9,8 +9,8 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url":
-            //"E:/Working/CodeProjects/ResponsiveWebDesign/AppliedAccessibility/main.html",
-            "D:/Privat/Learning/HTML/HTML_Basic/AppliedAccessibility/main.html",
+            "E:/Working/CodeProjects/ResponsiveWebDesign/TributePage/main.html",
+            //"D:/Privat/Learning/HTML/HTML_Basic/AppliedAccessibility/main.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

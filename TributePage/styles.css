@@ -1,0 +1,9 @@
+#main {
+    text-align: center;
+}
+
+#image {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
